@@ -1,0 +1,30 @@
+{
+  "name": "@zowe/jcl-gen",
+  "version": "1.0.0",
+  "description": "A Zowe CLI plug-in to generate JCL based on pre-defined templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zowe",
+    "cli",
+    "jcl",
+    "plugin",
+    "jcl-gen"
+  ],
+  "author": "Guilherme Cartier",
+  "license": "ISC",
+  "imperative": {
+    "configurationModule": "lib/imperative.js"
+  },
+  "peerDependencies": {
+    "@zowe/cli": "^5.14.2",
+    "@zowe/imperative": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.0",
+    "@zowe/cli": "^5.14.2",
+    "@zowe/imperative": "^4.2.1"
+  }
+}
