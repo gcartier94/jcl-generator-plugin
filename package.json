@@ -1,5 +1,5 @@
 {
-  "name": "jcl-gen",
+  "name": "@zowe/jcl-gen",
   "version": "1.0.0",
   "description": "A Zowe CLI plug-in to generate JCL based on pre-defined templates",
   "main": "index.js",
