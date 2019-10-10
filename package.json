@@ -1,10 +1,10 @@
 {
-  "name": "@zowe/jcl-gen",
+  "name": "jcl-gen",
   "version": "1.0.0",
   "description": "A Zowe CLI plug-in to generate JCL based on pre-defined templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --pretty"
   },
   "keywords": [
     "zowe",
